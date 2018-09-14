@@ -1,0 +1,36 @@
+*{
+	border-radius: 0 !important;
+}
+
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+#map{
+	width: 100%;
+	height: 100%;
+	padding-top: 41px;
+}
+#progress {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 5px;
+	background: rgba(0, 60, 136, 0.4);
+	width: 0;
+	transition: width 250ms;
+}
+.bars-button {
+	top: 65px;
+	left: .5em;
+}
+.ol-touch .bars-button {
+	top: 80px;
+}
+#identifier{
+	width: 215px;
+}
